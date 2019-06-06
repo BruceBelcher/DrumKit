@@ -1,0 +1,78 @@
+
+body {
+    background-color: bisque;
+}
+#hero {                 /*specify size of the container*/
+    position: relative;
+    background-color: aquamarine;
+}
+#hero-image {           /*specify size of image in container*/
+    width: 75%;
+    background-color: blueviolet;
+}
+#intro {    /*position in centre at the top*/
+    position: absolute;
+    top: 30px;
+    left: 37.5%; /*as image is at 75% of container width*/
+    transform: translate(-50%, -50%);
+}
+#b {        /*position on bass drum. use % or doesn't scale*/
+    position: absolute;
+    top: 55%;
+    left: 34%; /*as image is at 75% of container width*/
+}
+#c {        /*position on clap*/
+    position: absolute;
+    top: 10%;
+    left: 20%; /*as image is at 75% of container width*/
+}
+#h {        
+    position: absolute;
+    top: 25%;
+    left: 17%; /*as image is at 75% of container width*/
+}
+#h {        
+    position: absolute;
+    top: 25%;
+    left: 17%; /*as image is at 75% of container width*/
+}
+#o {        
+    position: absolute;
+    top: 25%;
+    left: 50%; /*as image is at 75% of container width*/
+}
+#r {        
+    position: absolute;
+    top: 80%;
+    left: 50%; /*as image is at 75% of container width*/
+}
+#s {        
+    position: absolute;
+    top: 45%;
+    left: 45%; /*as image is at 75% of container width*/
+}
+#k  {        
+    position: absolute;
+    top: 80%;
+    left: 35%; /*as image is at 75% of container width*/
+}
+#t {        /*position on clap*/
+    position: absolute;
+    top: 10%;
+    left: 50%; /*as image is at 75% of container width*/
+}
+#m {        
+    position: absolute;
+    top: 45%;
+    left: 25%; /*as image is at 75% of container width*/
+}
+p {
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
